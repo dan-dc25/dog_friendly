@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 require "bundler/setup"
 require "dog_friendly"
 
@@ -7,6 +5,4 @@ require "dog_friendly"
 require "irb"
 IRB.start(__FILE__)
 
-require_relative '../lib/cli.rb'
 
-Cli.new.class

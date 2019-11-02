@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'dog_friendly'
+
+DogFriendly::CLI.new.call
